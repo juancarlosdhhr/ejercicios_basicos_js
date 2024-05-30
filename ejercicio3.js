@@ -7,7 +7,7 @@
 
 console.log(10*5);
 
-//3.2 Divide 10 por 2 y muestra el resultado en un console.
+//3.2 Divide 10 entre 2 y muestra el resultado en un console.
 
 console.log(10/2);
 //3.3 Muestra mediante un console el resto de dividir 15 por 9.
