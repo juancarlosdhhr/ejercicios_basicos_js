@@ -5,23 +5,9 @@
 
 //Puedes usar este array para probar tu función:
 
-const duplicates = [
-    'sushi',
-    'pizza',
-    'burger',
-    'potatoe',
-    'pasta',
-    'ice-cream',                                                                                                         
-    'pizza',
-    'chicken',
-    'onion rings',
-    'pasta',
-    'soda'
-  ];
-
 
  
-  function eliminarDuplicados(array) {  // <-- Con esta funcion eliminamos elementos duplicados de un array
+  function removeDuplicates(array) {  // <-- Con esta funcion eliminamos elementos duplicados de un array
     
   //Ahora tenemos que crear un nuevo array para almacenar los valores únicos
 
@@ -50,6 +36,22 @@ arrayUnico.push(array[i]);
 return arrayUnico;
 
 }
+
+//Array
+
+const duplicates = [
+  'sushi',
+  'pizza',
+  'burger',
+  'potatoe',
+  'pasta',
+  'ice-cream',                                                                                                         
+  'pizza',
+  'chicken',
+  'onion rings',
+  'pasta',
+  'soda'
+];
 
 // Ahora llamaremos a la función con el array y guardamos el resultado
 
