@@ -5,7 +5,6 @@
 
 //Puedes usar este array para probar tu función:
 
-const mixedElements = [6, 1, 'Marvel', 1, 'hamburguesa', '10', 'Prometeo', 8, 'Hola mundo'];
 
 
 //Para calcular la suma de números y longitudes de cadenas en un array:
@@ -45,14 +44,24 @@ sumaTotal += array[i].length;
 
 }
 
-}
+//Devolver la suma total
 
-
-
-
-
-
-
+return sumaTotal;
 
 
 }
+
+//Array
+
+const mixedElements = [6, 1, 'Marvel', 1, 'hamburguesa', '10', 'Prometeo', 8, 'Hola mundo'];
+
+
+//LLamar a la función con el array de prueba y guardar el resultado
+
+const resultado = calcularSumaMezclada(mixedElements);
+
+//Imprimir el resultado
+
+console.log("La suma total del array mezclado es", resultado);
+
+//La suma total del array mezclado es 53 
