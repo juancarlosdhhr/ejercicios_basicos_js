@@ -28,17 +28,18 @@ const words = [
   for (let i = 0; i < words.length; i++) {
 
     if (contador[words[i]]) {
-    contador[words[i]++];
+    contador[words[i]]++;
 
     } else {
 contador[words[i]] = 1;
 
     }
 
-    return contador;
+    
   }
-
+  return contador;
   }
 
   
-  console.log(repeatCounter(words));
+ const result = repeatCounter(words);
+  console.log(result);
