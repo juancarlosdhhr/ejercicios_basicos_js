@@ -32,3 +32,12 @@ for (let i = 0; i < 10; i++) {
     }
   }
   
+// Tambien se puede plantear al revés:
+
+for (let i = 0; i < 10; i++) {
+  if (i === 9) {
+    console.log(i + "¡Dormido!");
+  } else {
+    console.log(i + "Intentando dormir");
+  }
+}
